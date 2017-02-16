@@ -1,3 +1,6 @@
-﻿Test after test
-
-just something happening here
+﻿Magnēti:
+Zemfrekvences_tr
+	--
+	
+Augstfrekvences_tr
+	--
