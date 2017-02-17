@@ -128,10 +128,10 @@ Pt = Pts+Ptj
 lprims = H      %magnçtiskâs plûsmas ceïa garums
 lprimj = H+lj
 deltaEkv = 4e-5 %gaisa sprauga [m]
-ws = 10/as      % îpatnçjie mds stienî ==> as*ws = 10 [A/m]
-wj = ws
+as_times_ws = 10      % îpatnçjie mds stienî ==> as*ws = 10 [A/m]
+as_times_wj = as_div_ws
 n=2             %spraugu skaits serdç
-I0 = ((as*ws*lprims+as*wj*lprimj)*1e2+0.8*n*deltaEkv*Bs*1e6)/ ...
+I0 = ((as_times_ws*lprims+as_times_wj*lprimj)*1e2+0.8*n*deltaEkv*Bs*1e6)/ ...
         (sqrt(2)*w1) % [A]
 %%2.11.Lietderîbas koeficients--------------------------------------------
 eta = P2*cosphi2/(P2*cosphi2+Pv+Pt) % 
