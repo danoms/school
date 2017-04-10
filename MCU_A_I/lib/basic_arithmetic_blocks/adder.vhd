@@ -18,7 +18,7 @@
 --
 -----------------------------
 
---synthesis library basic_arithmetic_blocks
+--synthesis library basic_arithmetic_blocks 
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -40,9 +40,9 @@ entity adder is
 		cout	: out std_logic;
 		q		: out std_logic_vector(ADDER_WIDTH-1 downto 0)
 	);
-	
-
 end entity;
+
+--
 
 architecture slow of adder is
 	

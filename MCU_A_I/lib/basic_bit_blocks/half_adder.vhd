@@ -37,6 +37,8 @@ entity half_adder is
 
 end entity;
 
+-- using only logic gates
+
 architecture logic_gates_only of half_adder is
 
 begin
@@ -46,7 +48,7 @@ begin
 	
 end architecture;
 
-
+-- using unneeded clk, stupid - just dont(i think)
 
 architecture logic_gates_only_clk of half_adder is
 
